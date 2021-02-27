@@ -1,0 +1,46 @@
+body
+{
+font-family: 'Yellowtail', cursive;width: 500px;justify-items: center;
+background: rgba(0,64,255,1);
+background: -moz-linear-gradient(left, rgba(0,64,255,1) 10%, rgba(0,64,255,1) 25%, rgba(8,62,251,1) 26%, rgba(24,58,243,1) 28%, rgba(255,0,132,1) 57%);
+background: -webkit-gradient(left top, right top, color-stop(10%, rgba(0,64,255,1)), color-stop(25%, rgba(0,64,255,1)), color-stop(26%, rgba(8,62,251,1)), color-stop(28%, rgba(24,58,243,1)), color-stop(57%, rgba(255,0,132,1)));
+background: -webkit-linear-gradient(left, rgba(0,64,255,1) 10%, rgba(0,64,255,1) 25%, rgba(8,62,251,1) 26%, rgba(24,58,243,1) 28%, rgba(255,0,132,1) 57%);
+background: -o-linear-gradient(left, rgba(0,64,255,1) 10%, rgba(0,64,255,1) 25%, rgba(8,62,251,1) 26%, rgba(24,58,243,1) 28%, rgba(255,0,132,1) 57%);
+background: -ms-linear-gradient(left, rgba(0,64,255,1) 10%, rgba(0,64,255,1) 25%, rgba(8,62,251,1) 26%, rgba(24,58,243,1) 28%, rgba(255,0,132,1) 57%);
+background: linear-gradient(to right, rgba(0,64,255,1) 10%, rgba(0,64,255,1) 25%, rgba(8,62,251,1) 26%, rgba(24,58,243,1) 28%, rgba(255,0,132,1) 57%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0040ff', endColorstr='#ff0084', GradientType=1 )} /*this is from a css generator website website*/
+
+form {  
+width:500px; height: auto; box-sizing: border-box; background-color: aqua; padding-bottom: 50px;
+padding-top: 50;padding-left: 10;padding-right: 10; margin-top: 50px ; margin-bottom: 80;
+    margin-left: 600; margin-right: 500 ;
+        -webkit-box-shadow: 10px 10px 58px 27px rgba(37,232,232,1);
+-moz-box-shadow: 10px 10px 58px 27px rgba(37,232,232,1);
+box-shadow: 10px 10px 58px 27px rgba(37,232,232,1);
+     border-radius: 25px;
+}
+
+
+input[type="text"]{
+    width: 90%; height: 15%; font-size: 60px;
+    padding: 10px 10px;
+    box-sizing: border-box;
+     border-radius: 25px;
+}
+input[type="text"]:hover{background-color: red;}
+
+input[type="button"]{
+    width: 100px;
+    height: 100px;
+    background-color: palegreen;
+    color: black;
+    font-size: 50px;
+    font-family: 'Yellowtail';
+     border-radius: 50px;
+    
+}
+input[type="button"]:hover{color: aqua;background-color: black;}
+
+hr{
+    margin: 15px 0;
+}
